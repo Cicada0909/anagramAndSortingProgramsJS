@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color: black;">
-    <script src="main.js"></script>
+    <div class="container">
+        <div class="block">
+            <button onclick="checkWords()">Проверка слова на анаграмму</button>
+            <div class="block__result" id="resultUserAnagram"></div>
+            <script src="main.js"></script>
+        </div>
+        <div class="block">
+            <button onclick="questionArray()">Сортировка чисел</button>
+            <div class="block__result" id="resultUser"></div>
+            <div class="block__result" id="resultUserSorted"></div> 
+        </div>
+    </div>
 </body>
 </html>
