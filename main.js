@@ -47,7 +47,6 @@ function checkWords() {
 
     const isAnagram = calcLetters(userWord, userWord1);
     if (isAnagram == true) {
-        console.log(`слово "${userWord}" и "${userWord1}" являются анаграммами`);
         document.getElementById('resultUserAnagram').innerText = `слово "${userWord}" и "${userWord1}" являются анаграммами`;
         return
     }
