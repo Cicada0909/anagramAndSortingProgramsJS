@@ -47,10 +47,10 @@ function checkWords() {
 
     const isAnagram = calcLetters(userWord, userWord1);
     if (isAnagram == true) {
-        document.getElementById('resultUserAnagram').innerText = `слово "${userWord}" и "${userWord1}" являются анаграммами`;
+        document.getElementById('resultUserAnagram').innerText = `слова "${userWord}" и "${userWord1}" являются анаграммами`;
         return
     }
-    document.getElementById('resultUserAnagram').innerText = `слово "${userWord}" и "${userWord1}" не являются анаграммами`;
+    document.getElementById('resultUserAnagram').innerText = `слова "${userWord}" и "${userWord1}" не являются анаграммами`;
 }
 
 
